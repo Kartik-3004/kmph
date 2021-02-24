@@ -12,7 +12,7 @@ import Button from '@material-ui/core/Button';
 import Hidden from '@material-ui/core/Hidden';
 import Drawer from '@material-ui/core/Drawer';
 // @material-ui/icons
-// import Menu from '@material-ui/icons/Menu';
+import Menu from '@material-ui/icons/Menu';
 // core components
 import styles from '../styles/headerStyle.js';
 
@@ -83,7 +83,7 @@ export default function Header(props) {
             aria-label="open drawer"
             onClick={handleDrawerToggle}
           >
-            {/* <Menu /> */}
+            <Menu />
           </IconButton>
         </Hidden>
       </Toolbar>
