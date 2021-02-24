@@ -1,0 +1,25 @@
+{
+  "name": "kmph",
+  "version": "1.0.0",
+  "description": "Online Examination System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kartik-3004/kmph.git"
+  },
+  "keywords": [
+    "onlineExaminationSystem",
+    "react",
+    "node.js",
+    "API"
+  ],
+  "author": "kmph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kartik-3004/kmph/issues"
+  },
+  "homepage": "https://github.com/Kartik-3004/kmph#readme"
+}
