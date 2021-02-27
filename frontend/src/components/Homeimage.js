@@ -1,5 +1,8 @@
 import React from "react";
-
-funtion Homeimage(){
-    return <img src></img>
+import tree from "../Images/tree.jpg";
+const imagestyle = {
+  marginLeft: 10,
+};
+export default function Homeimage() {
+  return <img style={imagestyle} src={tree} alt="asd" />;
 }

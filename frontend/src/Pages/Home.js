@@ -11,6 +11,7 @@ import React from "react";
 import Header from "../components/Header";
 import HeaderLinks from "../components/HeaderLinks";
 import Login from "../components/Login";
+import Homeimage from "../components/Homeimage";
 import Footer from "../components/Footer";
 // import styles from '../styles/landingPage';
 
@@ -37,25 +38,29 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <h1 style={{ marginTop: 100 }}>daffd</h1>
-      <Login
-        marginl="200px"
-        head="Create QUIZ"
-        subhead="Teacher"
-        body="Lorem Ipsum is simply dummy text of the printing and typesetting
+      <div style={{ marginTop: 100 }}>
+        <h1>daffd</h1>
+
+        <Login
+          marginl="200px"
+          head="Create QUIZ"
+          subhead="Teacher"
+          body="Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown."
-        buttontext="Login"
-      />
-      <Login
-        marginl="30px"
-        head="Attempt QUIZ"
-        subhead="Student"
-        body="Lorem Ipsum is simply dummy text of the printing and typesetting
+          buttontext="Login"
+        />
+        <Login
+          marginl="30px"
+          head="Attempt QUIZ"
+          subhead="Student"
+          body="Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown."
-        buttontext="SignIN"
-      />
+          buttontext="SignIN"
+        />
+        <Homeimage />
+      </div>
       <Footer />
     </div>
   );

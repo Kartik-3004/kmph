@@ -9,7 +9,7 @@ import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   root: {
-    marginTop: 150,
+    marginTop: 10,
     display: "inline-block",
     minWidth: 275,
     width: 300,
