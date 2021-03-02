@@ -39,7 +39,7 @@ export default function LandingPage(props) {
         {...rest}
       />
       <div style={{ marginTop: 100 }}>
-        <h1>daffd</h1>
+        <h1>Add Title</h1>
 
         <Login
           marginl="200px"
